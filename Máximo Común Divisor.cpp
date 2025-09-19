@@ -6,10 +6,10 @@ int mcd(int a, int b) {
     return mcd(b, a % b);
 }
 int main() {
-    int num1, num2;
+    int numero1, numero2;
     cout << "Ingrese dos numeros enteros(primer numero -> presiona enter -> segundo numero): ";
-    cin >> num1 >> num2;
-    int resultado = mcd(num1, num2);
-    cout << "El máximo común divisor de " << num1 << " y " << num2 << " es: " << resultado << endl;
+    cin >> numero1 >> numero2;
+    int resultado = mcd(numero1, numero2);
+    cout << "El máximo común divisor de " << numero1 << " y " << numero2 << " es: " << resultado << endl;
     return 0;
 }
